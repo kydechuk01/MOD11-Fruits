@@ -18,6 +18,10 @@ li {
   padding: 0;
 }
 
+li[class]:last-child {
+  margin-bottom: 120px;
+}
+
 button:hover {
   background-color: #e1e109;
   box-shadow: 1px 1px 3px gray;  
